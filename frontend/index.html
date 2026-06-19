@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeLink AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <h1>🩸 LifeLink AI</h1>
+        <p class="tagline">
+AI-Powered Blood Donation & Emergency Response Platform
+</p>
+
+        <div class="menu">
+            <a href="#register">Register</a>
+            <a href="#search">Search Donor</a>
+            <a href="#compatibility">Compatibility</a>
+            <a href="#assistant">AI Assistant</a>
+        </div>
+    </nav>
+
+    <h2>Every Drop Counts ❤️</h2>
+
+
+<p class="hero-text">
+When someone needs blood, every second matters.LifeLink connects donors and patients
+</p>
+
+    <div class="stats">
+
+    <div class="stat">
+        <h3>150+</h3>
+        <p>Donors Connected</p>
+    </div>
+
+    <div class="stat">
+        <h3>50+</h3>
+        <p>Lives Supported</p>
+    </div>
+
+    <div class="stat">
+        <h3>24/7</h3>
+        <p>AI Guidance</p>
+    </div>
+
+</div>
+
+   <div class="feature-grid">
+
+    <div class="feature-card">
+        ❤️ One donation can save up to 3 lives
+    </div>
+
+    <div class="feature-card">
+        🩸 O- is the universal donor
+    </div>
+
+    <div class="feature-card">
+        🤖 AI helps find donors faster
+    </div>
+
+</div>
+<div class="emergency-banner">
+
+🚨 Emergency Requests Need Fast Response.
+Register Today and Become a Lifesaver.
+
+</div>
+
+    </div>
+
+    <div class="form-container">
+
+        <div class="card" id="register">
+
+            <h2>Register Blood Donor</h2>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Your Name">
+
+            <input
+                type="text"
+                id="blood"
+                placeholder="Blood Group (O+, A+, B+, AB+)">
+
+            <button onclick="registerDonor()">
+                Register Donor
+            </button>
+            <p class="mini-info">
+❤️ Every registered donor can save up to 3 lives
+</p>
+
+        </div>
+
+    </div>
+
+    <section id="search" class="card">
+
+        <h2>🔍 Search Donor</h2>
+
+        <input
+            type="text"
+            id="searchBlood"
+            placeholder="Enter Blood Group">
+
+        <button onclick="searchDonor()">
+            Search
+        </button>
+
+        <div id="searchResults"></div>
+
+    </section>
+
+    <section id="compatibility" class="card">
+
+        <h2>🩸 Blood Compatibility Checker</h2>
+
+        <select id="bloodType">
+
+            <option>O-</option>
+            <option>O+</option>
+            <option>A-</option>
+            <option>A+</option>
+            <option>B-</option>
+            <option>B+</option>
+            <option>AB-</option>
+            <option>AB+</option>
+
+        </select>
+
+        <button onclick="checkCompatibility()">
+            Check Compatibility
+        </button>
+
+        <div id="compatibilityResult"></div>
+
+    </section>
+
+    <section id="assistant" class="card">
+
+        <h2>🤖 LifeLink AI Health Assistant</h2>
+        <p class="tagline">
+AI-Powered Blood Donation & Emergency Response Platform
+</p>
+
+        <input
+            type="text"
+            id="question"
+            placeholder="Ask about blood donation">
+
+        <button onclick="askAI()">
+            Ask AI
+        </button>
+
+        <div id="answer" class="chat-box"></div>
+
+    </section>
+
+    <footer>
+
+    <h3>🩸 LifeLink AI</h3>
+
+    <p>
+        Connecting donors, patients and hospitals through AI.
+    </p>
+
+    <p>
+        Built with FastAPI • Groq AI • HTML • CSS • JavaScript
+    </p>
+
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
