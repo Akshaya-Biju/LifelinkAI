@@ -1,6 +1,9 @@
 # 🩸 LifeLink AI
 
 ## AI-Powered Blood Donor Network
+<img width="1920" height="1020" alt="Screenshot 2026-06-19 225352" src="https://github.com/user-attachments/assets/5e9cf199-b155-4be4-9a24-fe7562ad51f8" />
+<img width="1920" height="1020" alt="Screenshot 2026-06-19 230003" src="https://github.com/user-attachments/assets/ceeb7fa1-1aff-44fa-80a9-cc0ee6507d62" />
+
 <img width="1920" height="1020" alt="Screenshot 2026-06-19 230111" src="https://github.com/user-attachments/assets/a6e2d280-4815-4dfa-ad63-7bb59ba2002b" />
 
 <img width="1920" height="1080" alt="Screenshot 2026-06-19 230142" src="https://github.com/user-attachments/assets/15bd4a34-0a18-469b-b7f1-664fb259f744" />
