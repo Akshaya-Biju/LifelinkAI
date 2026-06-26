@@ -13,9 +13,11 @@ async function registerDonor() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:8000/register-donor",
+            "https://lifelinkai-8rn4.onrender.comregister-donor",
+            
             {
                 method: "POST",
+            
                 headers: {
                     "Content-Type": "application/json"
                 },
@@ -47,12 +49,13 @@ async function registerDonor() {
 async function searchDonor() {
 
     const blood =
+
         document.getElementById("searchBlood").value;
 
     try {
 
         const response = await fetch(
-            "https://lifelink-b0g1.onrender.com/donors"
+            "https://lifelinkai-8rn4.onrender.com/donors"
         );
 
         const donors = await response.json();
@@ -122,7 +125,7 @@ async function askAI() {
     try {
 
         const response = await fetch(
-            "https://lifelink-b0g1.onrender.com/ask-ai",
+            "https://lifelinkai-8rn4.onrender.com/ask-ai",
             {
                 method: "POST",
                 headers: {
