@@ -13,7 +13,7 @@ async function registerDonor() {
     try {
 
         const response = await fetch(
-            "https://lifelinkai-8rn4.onrender.comregister-donor",
+            "https://lifelinkai-8rn4.onrender.com/register-donor",
             
             {
                 method: "POST",
