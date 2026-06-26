@@ -84,8 +84,11 @@ LifeLink AI addresses this issue by providing a centralized platform that simpli
 
 ### Deployment
 
-* Netlify (Frontend)
-* Render (Backend)
+## 🌐 Live Demo
+
+**Frontend:** https://lifelink-ai.netlify.app/
+
+**Backend API (Swagger):** https://lifelinkai-8rn4.onrender.com/docs
 
 ### Version Control
 
